@@ -1,0 +1,23 @@
+package com.company;
+
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class MainTest {
+
+    @Test
+    public void main() {
+    }
+
+    @Test
+    public void preobr(int Gb, int bait) {
+        assertEquals(Gb,bait);
+    }
+    @Test
+    public void input() {
+        int first = 11;
+        String second = ("dww");
+        assertEquals(first,second);
+    }
+}
