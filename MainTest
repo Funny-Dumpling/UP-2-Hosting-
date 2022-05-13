@@ -9,7 +9,10 @@ public class MainTest {
     @Test
     public void main() {
     }
-
+    @Test
+    public void isaBoolean() {
+        assertEquals(true,Main.isaBoolean("мм"));
+    }
     @Test
     public void preobr(int Gb, int bait) {
         assertEquals(Gb,bait);
